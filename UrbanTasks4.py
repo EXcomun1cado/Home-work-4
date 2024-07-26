@@ -1,0 +1,7 @@
+my_string = input('Привет, напиши что нибудь: ')
+print(f'В вашей строке: {len(my_string)} символов!')
+print('Ваша строка в верхнем регистре:', my_string.upper())
+print('Ваша строка в нижнем регистре:', my_string.lower())
+print('Ваша строка без пробелов:', my_string.replace(' ', ''))
+print('Первый символ вашей стоки:', my_string[0])
+print('Последний символ вашей строки:', my_string[-1])
